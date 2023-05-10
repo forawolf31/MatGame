@@ -768,25 +768,1577 @@ public class GameManager : MonoBehaviour
                 break;
             case 49:
                 aSagBtn.GetComponent<Button>().onClick.AddListener(() => RandomSoru());
-              
-            
                 break;
         }
 
     }
     
+    public void aSolButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong();
+                break;
+            case 1:
+                Wrong();
+                break;
+            case 2:
+                Wrong();
+
+                break;
+            case 3:
+                Wrong();
+
+                break;
+            case 4:
+                Wrong();
+
+                break;
+            case 5:
+                Wrong();
+
+                break;
+            case 6:
+                Wrong();
+
+                break;
+            case 7:
+                Wrong();
+
+                break;
+            case 8:
+                Wrong();
+
+                break;
+            case 9:
+                Wrong();
+
+                break;
+            case 10:
+                Wrong();
+
+                break;
+            case 11:
+                Wrong();
+
+                break;
+            case 12:
+                Wrong();
+
+                break;
+            case 13:
+                Wrong();
+
+                break;
+            case 14:
+                Wrong();
+
+                break;
+            case 15:
+                Wrong();
+
+                break;
+            case 16:
+                Wrong();
+
+                break;
+            case 17:
+                Wrong();
+
+                break;
+            case 18:
+                Wrong();
+
+                break;
+            case 19:
+                Wrong();
+
+                break;
+            case 20:
+                Wrong();
+
+                break;
+            case 21:
+                Wrong();
+
+                break;
+            case 22:
+                Wrong();
+
+                break;
+            case 23:
+
+                break;
+            case 24:
+                Wrong();
+
+                break;
+            case 25:
+                Wrong();
+
+                break;
+            case 26:
+                Wrong();
+
+                break;
+            case 27:
+                Wrong();
+
+                break;
+            case 28:
+                Wrong();
+
+                break;
+            case 29:
+                Wrong();
+
+                break;
+            case 30:
+
+                break;
+            case 31:
+                Wrong();
+
+                break;
+            case 32:
+                Wrong();
+
+                break;
+            case 33:
+                Wrong();
+
+                break;
+            case 34:
+                Wrong();
+
+                break;
+            case 35:
+                Wrong();
+
+                break;
+            case 36:
+
+                break;
+            case 37:
+                Wrong();
+
+                break;
+            case 38:
+                Wrong();
+
+                break;
+            case 39:
+                Wrong();
+
+                break;
+            case 40:
+                Wrong();
+
+                break;
+            case 41:
+                
+                break;
+            case 42:
+                
+                break;
+            case 43:
+                
+                break;
+            case 44:
+                Wrong();
+
+                break;
+            case 45:
+                Wrong();
+
+                break;
+            case 46:
+                Wrong();
+
+                break;
+            case 47:
+                Wrong();
+
+                break;
+            case 48:
+                Wrong();
+
+                break;
+            case 49:
+                
+                break;
+        }
+    }
+    public void aSagButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong2();
+                break;
+            case 1:
+                Wrong2();
+                break;
+            case 2:
+                Wrong2();
+
+                break;
+            case 3:
+                Wrong2();
+
+                break;
+            case 4:
+                Wrong2();
+
+                break;
+            case 5:
+                Wrong2();
+
+                break;
+            case 6:
+                Wrong2();
+
+                break;
+            case 7:
+                Wrong2();
+
+                break;
+            case 8:
+                Wrong2();
+
+                break;
+            case 9:
+                Wrong2();
+
+                break;
+            case 10:
+                Wrong2();
+
+                break;
+            case 11:
+                Wrong2();
+
+                break;
+            case 12:
+                Wrong2();
+
+                break;
+            case 13:
+                Wrong2();
+
+                break;
+            case 14:
+                Wrong2();
+
+                break;
+            case 15:
+                Wrong2();
+
+                break;
+            case 16:
+                Wrong2();
+
+                break;
+            case 17:
+                Wrong2();
+
+                break;
+            case 18:
+                Wrong2();
+
+                break;
+            case 19:
+                Wrong2();
+
+                break;
+            case 20:
+                Wrong2();
+
+                break;
+            case 21:
+                Wrong2();
+
+                break;
+            case 22:
+                Wrong2();
+
+                break;
+            case 23:
+
+                break;
+            case 24:
+                Wrong2();
+
+                break;
+            case 25:
+                Wrong2();
+
+                break;
+            case 26:
+                Wrong2();
+
+                break;
+            case 27:
+                Wrong2();
+
+                break;
+            case 28:
+                Wrong2();
+
+                break;
+            case 29:
+                Wrong2();
+
+                break;
+            case 30:
+
+                break;
+            case 31:
+                Wrong2();
+
+                break;
+            case 32:
+                Wrong2();
+
+                break;
+            case 33:
+                Wrong2();
+
+                break;
+            case 34:
+                Wrong2();
+
+                break;
+            case 35:
+                Wrong2();
+
+                break;
+            case 36:
+
+                break;
+            case 37:
+                Wrong2();
+
+                break;
+            case 38:
+                Wrong2();
+
+                break;
+            case 39:
+                Wrong2();
+
+                break;
+            case 40:
+                Wrong2();
+
+                break;
+            case 41:
+
+                break;
+            case 42:
+
+                break;
+            case 43:
+
+                break;
+            case 44:
+                Wrong2();
+
+                break;
+            case 45:
+                Wrong2();
+
+                break;
+            case 46:
+                Wrong2();
+
+                break;
+            case 47:
+                Wrong2();
+
+                break;
+            case 48:
+                Wrong2();
+
+                break;
+            case 49:
+
+                break;
+        }
+    }
+    public void bSolButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong();
+                break;
+            case 1:
+                Wrong();
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+                Wrong();
+
+                break;
+            case 6:
+                Wrong();
+
+                break;
+            case 7:
+                Wrong();
+
+                break;
+            case 8:
+                Wrong();
+
+                break;
+            case 9:
+                Wrong();
+
+                break;
+            case 10:
+
+                break;
+            case 11:
+                Wrong();
+
+                break;
+            case 12:
+                Wrong();
+
+                break;
+            case 13:
+                Wrong();
+
+                break;
+            case 14:
+                Wrong();
+
+                break;
+            case 15:
+                Wrong();
+
+                break;
+            case 16:
+                Wrong();
+
+                break;
+            case 17:
+                Wrong();
+
+                break;
+            case 18:
+                Wrong();
+
+                break;
+            case 19:
+
+                break;
+            case 20:
+                Wrong();
+
+                break;
+            case 21:
+                Wrong();
+
+                break;
+            case 22:
+                Wrong();
+
+                break;
+            case 23:
+                Wrong();
+
+                break;
+            case 24:
+
+                break;
+            case 25:
+
+                break;
+            case 26:
+                Wrong();
+
+                break;
+            case 27:
+                Wrong();
+
+                break;
+            case 28:
+
+                break;
+            case 29:
+                Wrong();
+
+                break;
+            case 30:
+                Wrong();
+
+                break;
+            case 31:
+
+                break;
+            case 32:
+                Wrong();
+
+                break;
+            case 33:
+                Wrong();
+
+                break;
+            case 34:
+                Wrong();
+
+                break;
+            case 35:
+
+                break;
+            case 36:
+                Wrong();
+
+                break;
+            case 37:
+                Wrong();
+
+                break;
+            case 38:
+                Wrong();
+
+                break;
+            case 39:
+                Wrong();
+
+                break;
+            case 40:
+
+                break;
+            case 41:
+                Wrong();
+
+                break;
+            case 42:
+                Wrong();
+
+                break;
+            case 43:
+                Wrong();
+
+                break;
+            case 44:
+                Wrong();
+
+                break;
+            case 45:
+                Wrong();
+
+                break;
+            case 46:
+
+                break;
+            case 47:
+                Wrong();
+
+                break;
+            case 48:
+                Wrong();
+
+                break;
+            case 49:
+                Wrong();
+
+                break;
+        }
+    }
+    public void bSagButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong2();
+                break;
+            case 1:
+                Wrong2();
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+                Wrong2();
+
+                break;
+            case 6:
+                Wrong2();
+
+                break;
+            case 7:
+                Wrong2();
+
+                break;
+            case 8:
+                Wrong2();
+
+                break;
+            case 9:
+                Wrong2();
+
+                break;
+            case 10:
+
+                break;
+            case 11:
+                Wrong2();
+
+                break;
+            case 12:
+                Wrong2();
+
+                break;
+            case 13:
+                Wrong2();
+
+                break;
+            case 14:
+                Wrong2();
+
+                break;
+            case 15:
+                Wrong2();
+
+                break;
+            case 16:
+                Wrong2();
+
+                break;
+            case 17:
+                Wrong2();
+
+                break;
+            case 18:
+                Wrong2();
+
+                break;
+            case 19:
+
+                break;
+            case 20:
+                Wrong2();
+
+                break;
+            case 21:
+                Wrong2();
+
+                break;
+            case 22:
+                Wrong2();
+
+                break;
+            case 23:
+                Wrong2();
+
+                break;
+            case 24:
+
+                break;
+            case 25:
+
+                break;
+            case 26:
+                Wrong2();
+
+                break;
+            case 27:
+                Wrong2();
+
+                break;
+            case 28:
+
+                break;
+            case 29:
+                Wrong2();
+
+                break;
+            case 30:
+                Wrong2();
+
+                break;
+            case 31:
+
+                break;
+            case 32:
+                Wrong2();
+
+                break;
+            case 33:
+                Wrong2();
+
+                break;
+            case 34:
+                Wrong2();
+
+                break;
+            case 35:
+
+                break;
+            case 36:
+                Wrong2();
+
+                break;
+            case 37:
+                Wrong2();
+
+                break;
+            case 38:
+                Wrong2();
+
+                break;
+            case 39:
+                Wrong2();
+
+                break;
+            case 40:
+
+                break;
+            case 41:
+                Wrong2();
+
+                break;
+            case 42:
+                Wrong2();
+
+                break;
+            case 43:
+                Wrong2();
+
+                break;
+            case 44:
+                Wrong2();
+
+                break;
+            case 45:
+                Wrong2();
+
+                break;
+            case 46:
+
+                break;
+            case 47:
+                Wrong2();
+
+                break;
+            case 48:
+                Wrong2();
+
+                break;
+            case 49:
+                Wrong2();
+
+                break;
+        }
+    }
+    public void cSolButton()
+    {
+        switch (index)
+        {
+            case 0:
+                
+                break;
+            case 1:
+                Wrong();
+
+                break;
+            case 2:
+                Wrong();
+
+                break;
+            case 3:
+                Wrong();
+
+                break;
+            case 4:
+                Wrong();
+
+                break;
+            case 5:
+
+                break;
+            case 6:  
+
+                break;
+            case 7:
+                Wrong();
+
+                break;
+            case 8:
+
+                break;
+            case 9:
+               
+
+                break;
+            case 10:
+                Wrong();
+
+                break;
+            case 11:
+                Wrong();
+
+                break;
+            case 12:
+
+                break;
+            case 13:
+               
+                break;
+
+            case 14:
+                Wrong();
+
+                break;
+            case 15:
+
+                break;
+            case 16:              
+
+                break;
+            case 17:
+              
+
+                break;
+            case 18:
+              
+
+                break;
+            case 19:
+                Wrong();
+
+                break;
+            case 20:
+
+                break;
+            case 21:
+                Wrong();
+
+                break;
+            case 22:
+                Wrong();
+
+                break;
+            case 23:
+                Wrong();
+
+                break;
+            case 24:
+                Wrong();
+
+                break;
+            case 25:
+                Wrong();
+
+                break;
+            case 26:
+
+                break;
+            case 27:
+               
+
+                break;
+            case 28:
+                Wrong();
+
+
+                break;
+            case 29:
+                Wrong();
+
+                break;
+            case 30:
+                Wrong();
+
+                break;
+            case 31:
+                Wrong();
+
+                break;
+            case 32:
+
+                break;
+            case 33:
+                Wrong();
+
+                break;
+            case 34:
+
+                break;
+            case 35:
+                Wrong();
+
+                break;
+            case 36:
+                Wrong();
+
+                break;
+            case 37:
+
+                break;
+            case 38:
+                Wrong();
+
+                break;
+            case 39:
+                Wrong();
+
+                break;
+            case 40:
+                Wrong();
+
+                break;
+            case 41:
+                Wrong();
+
+                break;
+            case 42:
+                Wrong();
+
+                break;
+            case 43:
+                Wrong();
+
+                break;
+            case 44:
+                Wrong();
+
+                break;
+            case 45:
+
+                break;
+            case 46:
+                Wrong();
+
+                break;
+            case 47:
+                Wrong();
+
+                break;
+            case 48:
+
+                break;
+            case 49:
+                Wrong();
+
+                break;
+        }
+    }
+    public void cSagButton()
+    {
+        switch (index)
+        {
+            case 0:
+
+                break;
+            case 1:
+                Wrong2();
+
+                break;
+            case 2:
+                Wrong2();
+
+                break;
+            case 3:
+                Wrong2();
+
+                break;
+            case 4:
+                Wrong2();
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+                Wrong2();
+
+                break;
+            case 8:
+
+                break;
+            case 9:
+
+
+                break;
+            case 10:
+                Wrong2();
+
+                break;
+            case 11:
+                Wrong2();
+
+                break;
+            case 12:
+
+                break;
+            case 13:
+
+                break;
+
+            case 14:
+                Wrong2();
+
+                break;
+            case 15:
+
+                break;
+            case 16:
+
+                break;
+            case 17:
+
+
+                break;
+            case 18:
+
+
+                break;
+            case 19:
+                Wrong2();
+
+                break;
+            case 20:
+
+                break;
+            case 21:
+                Wrong2();
+
+                break;
+            case 22:
+                Wrong2();
+
+                break;
+            case 23:
+                Wrong2();
+
+                break;
+            case 24:
+                Wrong2();
+
+                break;
+            case 25:
+                Wrong2();
+
+                break;
+            case 26:
+
+                break;
+            case 27:
+
+
+                break;
+            case 28:
+                Wrong2();
+
+
+                break;
+            case 29:
+                Wrong2();
+
+                break;
+            case 30:
+                Wrong2();
+
+                break;
+            case 31:
+                Wrong2();
+
+                break;
+            case 32:
+
+                break;
+            case 33:
+                Wrong2();
+
+                break;
+            case 34:
+
+                break;
+            case 35:
+                Wrong2();
+
+                break;
+            case 36:
+                Wrong2();
+
+                break;
+            case 37:
+
+                break;
+            case 38:
+                Wrong2();
+
+                break;
+            case 39:
+                Wrong2();
+
+                break;
+            case 40:
+                Wrong2();
+
+                break;
+            case 41:
+                Wrong2();
+
+                break;
+            case 42:
+                Wrong2();
+
+                break;
+            case 43:
+                Wrong2();
+
+                break;
+            case 44:
+                Wrong2();
+
+                break;
+            case 45:
+
+                break;
+            case 46:
+                Wrong2();
+
+                break;
+            case 47:
+                Wrong2();
+
+                break;
+            case 48:
+
+                break;
+            case 49:
+                Wrong2();
+
+                break;
+        }
+    }
+    public void dSolButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong();
+
+                break;
+            case 1:
+
+                break;
+            case 2:
+                Wrong();
+
+                break;
+            case 3:
+                Wrong();
+
+                break;
+            case 4:
+                Wrong();
+
+                break;
+            case 5:
+                Wrong();
+
+                break;
+            case 6:
+                Wrong();
+
+                break;
+            case 7:
+
+                break;
+            case 8:
+                Wrong();
+
+                break;
+            case 9:
+                Wrong();
+
+                break;
+            case 10:
+                Wrong();
+
+                break;
+            case 11:
+
+                break;
+            case 12:
+                Wrong();
+
+                break;
+            case 13:
+                Wrong();
+
+                break;
+            case 14:
+
+                break;
+            case 15:
+                Wrong();
+
+                break;
+            case 16:
+                Wrong();
+
+                break;
+            case 17:
+                Wrong();
+
+                break;
+            case 18:
+                Wrong();
+
+                break;
+            case 19:
+                Wrong();
+
+                break;
+            case 20:
+                Wrong();
+
+                break;
+            case 21:
+
+                break;
+            case 22:
+
+                break;
+            case 23:
+                Wrong();
+
+                break;
+            case 24:
+                Wrong();
+
+                break;
+            case 25:
+                Wrong();
+
+                break;
+            case 26:
+                Wrong();
+
+                break;
+            case 27:
+                Wrong();
+
+                break;
+            case 28:
+                Wrong();
+
+                break;
+            case 29:
+
+                break;
+            case 30:
+                Wrong();
+
+                break;
+            case 31:
+                Wrong();
+
+                break;
+            case 32:
+                Wrong();
+
+                break;
+            case 33:
+
+                break;
+            case 34:
+                Wrong();
+
+                break;
+            case 35:
+                Wrong();
+
+                break;
+            case 36:
+                Wrong();
+
+                break;
+            case 37:
+                Wrong();
+
+                break;
+            case 38:
+
+                break;
+            case 39:
+
+                break;
+            case 40:
+                Wrong();
+
+                break;
+            case 41:
+                Wrong();
+
+                break;
+            case 42:
+                Wrong();
+
+                break;
+            case 43:
+                Wrong();
+
+                break;
+            case 44:
+
+                break;
+            case 45:
+                Wrong();
+
+                break;
+            case 46:
+                Wrong();
+
+                break;
+            case 47:
+
+                break;
+            case 48:
+                Wrong();
+
+                break;
+            case 49:
+                Wrong();
+
+                break;
+        }
+    }
+    public void dSagButton()
+    {
+        switch (index)
+        {
+            case 0:
+                Wrong2();
+
+                break;
+            case 1:
+
+                break;
+            case 2:
+                Wrong2();
+
+                break;
+            case 3:
+                Wrong2();
+
+                break;
+            case 4:
+                Wrong2();
+
+                break;
+            case 5:
+                Wrong2();
+
+                break;
+            case 6:
+                Wrong2();
+
+                break;
+            case 7:
+
+                break;
+            case 8:
+                Wrong2();
+
+                break;
+            case 9:
+                Wrong2();
+
+                break;
+            case 10:
+                Wrong2();
+
+                break;
+            case 11:
+
+                break;
+            case 12:
+                Wrong2();
+
+                break;
+            case 13:
+                Wrong2();
+
+                break;
+            case 14:
+
+                break;
+            case 15:
+                Wrong2();
+
+                break;
+            case 16:
+                Wrong2();
+
+                break;
+            case 17:
+                Wrong2();
+
+                break;
+            case 18:
+                Wrong2();
+
+                break;
+            case 19:
+                Wrong2();
+
+                break;
+            case 20:
+                Wrong2();
+
+                break;
+            case 21:
+
+                break;
+            case 22:
+
+                break;
+            case 23:
+                Wrong2();
+
+                break;
+            case 24:
+                Wrong2();
+
+                break;
+            case 25:
+                Wrong2();
+
+                break;
+            case 26:
+                Wrong2();
+
+                break;
+            case 27:
+                Wrong2();
+
+                break;
+            case 28:
+                Wrong2();
+
+                break;
+            case 29:
+
+                break;
+            case 30:
+                Wrong2();
+
+                break;
+            case 31:
+                Wrong2();
+
+                break;
+            case 32:
+                Wrong2();
+
+                break;
+            case 33:
+
+                break;
+            case 34:
+                Wrong2();
+
+                break;
+            case 35:
+                Wrong2();
+
+                break;
+            case 36:
+                Wrong2();
+
+                break;
+            case 37:
+                Wrong2();
+
+                break;
+            case 38:
+
+                break;
+            case 39:
+
+                break;
+            case 40:
+                Wrong2();
+
+                break;
+            case 41:
+                Wrong2();
+
+                break;
+            case 42:
+                Wrong2();
+
+                break;
+            case 43:
+                Wrong2();
+
+                break;
+            case 44:
+
+                break;
+            case 45:
+                Wrong2();
+
+                break;
+            case 46:
+                Wrong2();
+
+                break;
+            case 47:
+
+                break;
+            case 48:
+                Wrong2();
+
+                break;
+            case 49:
+                Wrong2();
+
+                break;
+        }
+    }
     void CanBar()
     {
         _currentHealth -= 1;
         _healthbar.UpdateHealthBar(_maxHealth, _currentHealth);
-        print("a");
+        print("3¹");
         
         //if (_currentHealth <= 0)
         //{
 
         //}
     }
-    IEnumerator Wrong2( )
+    IEnumerator Wrong2()
     {
         FalseIcon2.GetComponent<RectTransform>().DOLocalMoveY(-210, 1f).SetEase(Ease.OutBack);
         yield return new WaitForSeconds(1);
