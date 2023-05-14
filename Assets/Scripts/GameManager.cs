@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI SoruText, aSolText, bSolText, cSolText, dSolText, aSagText, bSagText, cSagText, dSagText,GameEndText;
 
     [SerializeField]
-    private GameObject FalseIcon, FalseIcon2;
+    private GameObject FalseIcon, FalseIcon2,Cha1,Cha2;
 
     [SerializeField]
     private Button aSolBtn, bSolBtn, cSolBtn, dSolBtn, aSagBtn, bSagBtn, cSagBtn, dSagBtn;
@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
    
     public void Start()
     {
+
         _currentHealth = _maxHealth;
 
         _healthbar.UpdateHealthBar(_maxHealth,_currentHealth);
@@ -2307,16 +2308,19 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
-
+    
     public void Tokat1()
     {
+        Anims.instance.Tokat();
+        
         print("tokat1");
+        
     }
 
     public void Tokat2()
     {
+        Anims2.instance.Tokat2();
         print("tokat2");
-
     }
     void CanBar2()
     {
@@ -2327,6 +2331,8 @@ public class GameManager : MonoBehaviour
         if (_currentHealth <= 0)
         {
             GameEndPanel.SetActive(true);
+            Cha1.SetActive(false);
+            Cha2.SetActive(false);
 
             GameEndText.text = "2. Oyuncu Kazandý".ToString();
         }
@@ -2340,7 +2346,8 @@ public class GameManager : MonoBehaviour
         if (_currentHealth <= 0)
         {
             GameEndPanel.SetActive(true);
-
+            Cha1.SetActive(false);
+            Cha2.SetActive(false);
             GameEndText.text = "1. Oyuncu Kazandý".ToString();
         }
     }
